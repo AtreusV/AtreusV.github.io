@@ -1,0 +1,133 @@
+/* encabezado */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: rgba(0, 128, 0, 0.315);
+    margin-top: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    padding: 2%;
+}
+#encabezado{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#linkmenu{
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+#linkmenu li{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* tarjetas/body */
+#imgtarjetas{
+    background-color: aliceblue;
+    border-radius: 100%;
+    border: 5px rgb(214, 121, 59) solid;
+
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cajasart{
+    text-align: center;
+    background-color: rgb(46, 88, 12);
+    padding: 2%;
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 2%;
+    width: 300px;
+}
+.infoTarjeta{
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: bisque;
+    padding: 2%;
+}
+/* footer */
+#PiePagina{
+    display: flex;
+    background-color: rgba(11, 173, 11, 0.534);
+    padding: 2%;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -1%;
+    justify-content:space-around;
+}
+#infotiendafooter{
+    text-align: center;
+}
+#redesfooter li{
+    display: inline;
+    color: aliceblue;
+    list-style: none;
+}
+#imgfooter{
+    font-size: xx-large;
+}
+
+@media screen and (min-with:421px) and (max-width:620px){
+    header{
+        display: flex;
+        background-color: rgba(0, 128, 0, 0.315);
+        justify-content: space-around;
+    }
+    #encabezado{
+        display: flex;  
+        justify-content: center;
+    }
+    #linkmenu{
+        width: 30%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    #linkmenu li{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #imgtarjetas{
+        background-color: aliceblue;
+        border-radius: 100%;
+        border: 5px black solid;
+    }
+    .tarjetas{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    #cajasart{
+        text-align: center;
+        background-color: rgb(52, 145, 52);
+        border: 1px rgb(0, 0, 0) solid;
+
+    }
+    #PiePagina{
+        display: flex;
+        background-color: rgba(11, 173, 11, 0.534);
+        padding: 2%;
+        margin-left: -1%;
+        margin-right: -1%;
+        margin-bottom: -1%;
+        justify-content:space-around;
+    }
+    #infotiendafooter{
+        text-align: center;
+    }
+    #redesfooter li{
+        display: inline;
+        color: aliceblue;
+        list-style: none;
+    }
+    #imgfooter{
+        font-size: xx-large;
+    }
+}
